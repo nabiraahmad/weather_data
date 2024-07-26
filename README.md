@@ -26,9 +26,9 @@ Automated ETL that extracts Casablanca's daily weather forecast  + observed data
 -    In your terminal, enter the crontab editor using `crontab-e` <br>
 -    Add this line to the end of the crontab file to schedule the script to run at a specific time. The following code is to run it at 6:00am everyday. Make sure the filepath is correct to the script rx_poc.sh <br>
     -    `0 6 * * * /usr/local/bin/weather_data_proj/rx_poc.sh` <br><br>
--    Note:** the crontab uses syntax minute/hour/day of month/month/day of week <br>
+     **Note:** the crontab uses syntax minute/hour/day of month/month/day of week <br>
 -   Save and exit <br>
--  Use `crontab -l` to verify the cron job has been added <br><br>
+-   Use `crontab -l` to verify the cron job has been added <br><br>
           
 
 
