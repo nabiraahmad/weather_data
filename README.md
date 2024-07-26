@@ -14,7 +14,7 @@ Automated ETL that extracts Casablanca's daily weather forecast  + observed data
 **1. Clone the repository** <br>
 **2. Set the correct permissions**
 <br>
-      `chmod 755 /usr/local/bin/weather_data_proj/rx_poc.sh`
+                              `chmod 755 /usr/local/bin/weather_data_proj/rx_poc.sh`
   <br>
 
 
