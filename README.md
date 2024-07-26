@@ -30,7 +30,7 @@ Automated ETL that extracts Casablanca's daily weather forecast  + observed data
 -   Save and exit <br>
 -   Use `crontab -l` to verify the cron job has been added <br><br>
           
-
+## Credits
 
 **Open source project used + credited:** [Github Repo](https://github.com/chubin/wttr.in#readme) <br><br>
 **Example weather report:**
