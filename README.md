@@ -12,7 +12,7 @@ Automated ETL that extracts Casablanca's daily weather forecast  + observed data
 ## Setup
 
 **1. Clone the repository** <br>
-**2. _For MacOS:_ Ensure the plist file is under /Library/LaunchAgents**
+**2. _For MacOS:_ Ensure the plist file is under /Library/LaunchAgents** <br>
 **3. Set the correct permissions**
 <br>
           `chmod 755 /usr/local/bin/weather_data_proj/rx_poc.sh`
