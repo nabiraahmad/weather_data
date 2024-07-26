@@ -5,4 +5,4 @@ Automated ETL that extracts Casablanca's daily weather forecast  + observed data
 * **open source project used + credited:** [Github Repo](https://github.com/chubin/wttr.in#readme) <br>
 * **example weather report:**
 
-* <img width="508" alt="Screenshot 2024-07-26 at 2 35 54 PM" src="https://github.com/user-attachments/assets/68f4bd95-fa5c-464d-9c8f-4e04a732be55">
+     <img width="508" alt="Screenshot 2024-07-26 at 2 35 54 PM" src="https://github.com/user-attachments/assets/68f4bd95-fa5c-464d-9c8f-4e04a732be55">
