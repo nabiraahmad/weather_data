@@ -12,16 +12,24 @@ Automated ETL that extracts Casablanca's daily weather forecast  + observed data
 ## Setup
 
 **1. Clone the repository** <br>
-**2. _For MacOS:_ Ensure the plist file is under /Library/LaunchAgents** <br>
+**2. _For macOS:_ Ensure the plist file is under /Library/LaunchAgents** <br>
 **3. Set the correct permissions**
 <br>
           `chmod 755 /usr/local/bin/weather_data_proj/rx_poc.sh`
 <br>
-**4. Edit the 'launchd' plist file to ensure the file path and schedule is correctly set**
+**4. _For macOS:_ Edit the 'launchd' plist file to ensure the file path and schedule is correctly set**
 <br>
 **5. Launch the plist file** <br>
           `launchctl load ~/Library/LaunchAgents/com.your-name.weather_data_proj.plist`
           <br>
+**6. For Linux systems, create a schedule using the steps below <br>
+          a. In your terminal, enter the crontab editor using `crontab-e` <br>
+          b. Add this line to the end of the crontab file to schedule the script to run at a specific time. The following code is to run it at 6:00am everyday. Make sure the filepath is correct to the script rx_poc.sh <br>
+                    `0 6 * * * /usr/local/bin/weather_data_proj/rx_poc.sh` <br>
+                    **Note:** the crontab uses syntax minute/hour/day of month/month/day of week <br>
+          c. Save and exit
+          d. Use `crontab -l` to verify the cron job has been added <br><br>
+          
 
 
 **Open source project used + credited:** [Github Repo](https://github.com/chubin/wttr.in#readme) <br><br>
