@@ -15,7 +15,12 @@ Automated ETL that extracts Casablanca's daily weather forecast  + observed data
 **2. Set the correct permissions**
 <br>
           `chmod 755 /usr/local/bin/weather_data_proj/rx_poc.sh`
-  <br>
+<br>
+**3. Edit the 'launchd' plist file to ensure the file path and schedule is correctly set**
+<br>
+**4. Launch the plist file**
+          `launchctl load ~/Library/LaunchAgents/com.nabiraa.weather_data_proj.plist`
+          <br>
 
 
 **Open source project used + credited:** [Github Repo](https://github.com/chubin/wttr.in#readme) <br><br>
