@@ -22,7 +22,7 @@ Automated ETL that extracts Casablanca's daily weather forecast  + observed data
 **5. Launch the plist file** <br>
           `launchctl load ~/Library/LaunchAgents/com.your-name.weather_data_proj.plist`
           <br><br>
-**6. For Linux systems, create a schedule using the steps below**<br> <br>
+**6. For Linux systems, create a schedule using the steps below**<br> 
 -    In your terminal, enter the crontab editor using `crontab-e` <br>
 -    Add this line to the end of the crontab file to schedule the script to run at a specific time. The following code is to run it at 6:00am everyday. Make sure the filepath is correct to the script rx_poc.sh <br>
     -    `0 6 * * * /usr/local/bin/weather_data_proj/rx_poc.sh` <br><br>
