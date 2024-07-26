@@ -12,14 +12,15 @@ Automated ETL that extracts Casablanca's daily weather forecast  + observed data
 ## Setup
 
 **1. Clone the repository** <br>
-**2. Set the correct permissions**
+**2. FOR MACOS: Ensure the plist file is under /Library/LaunchAgents**
+**3. Set the correct permissions**
 <br>
           `chmod 755 /usr/local/bin/weather_data_proj/rx_poc.sh`
 <br>
-**3. Edit the 'launchd' plist file to ensure the file path and schedule is correctly set**
+**4. Edit the 'launchd' plist file to ensure the file path and schedule is correctly set**
 <br>
-**4. Launch the plist file**
-          `launchctl load ~/Library/LaunchAgents/com.nabiraa.weather_data_proj.plist`
+**5. Launch the plist file** <br>
+          `launchctl load ~/Library/LaunchAgents/com.your-name.weather_data_proj.plist`
           <br>
 
 
